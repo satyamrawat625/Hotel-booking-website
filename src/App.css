@@ -1,0 +1,8 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+div.wrapper{
+    /* background: var(--black); */
+    position: relative;
+}

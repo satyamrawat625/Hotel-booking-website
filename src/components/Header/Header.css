@@ -1,0 +1,59 @@
+.h-wrapper{
+    background: var(--black);
+    color: white;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    color: var(--secondary);
+}
+.h-container>img{
+    width: 7%;
+    height: 8%;
+}
+.h-menu{
+    gap: 2rem;
+}
+
+.h-menu:hover{
+    cursor: pointer;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media (max-width:1000px){
+
+    .h-container{
+        flex-direction: row;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+    .h-menu{
+        color: var(--black);
+        position: absolute;
+        top: 3rem;
+        right: 4rem;
+        background-color: white;
+        flex-direction: column;
+
+        font-weight: 500;
+        gap: 2rem;
+        padding: 3rem;
+        border-radius: 5px;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.05);
+        z-index: 100;
+
+        transition: all 300ms ease-in;
+    }
+}
+@media (max-width:1300px){
+    .h-container{
+        gap:30%;
+        justify-content: center;
+    }
+}
