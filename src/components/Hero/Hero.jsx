@@ -76,7 +76,7 @@ const Hero = () => {
             type:'spring'
           }}>
           <div className="image-container">
-            <img src="/hero-image.jpg" alt="" />
+            <img src="/headimage.jpg" alt="" />
           </div>
         </motion.div>
       </div>
